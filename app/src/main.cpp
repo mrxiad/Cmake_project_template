@@ -1,15 +1,18 @@
 #include <iostream>
-#include <boost/version.hpp>
-#include <boost/config.hpp>
- 
-using namespace std;
-int main()
-{
-	cout<<BOOST_VERSION<<endl;
-	cout<<BOOST_LIB_VERSION<<endl;
-	cout<<BOOST_PLATFORM<<endl;
-	cout<<BOOST_COMPILER<<endl;
-	cout<<BOOST_STDLIB<<endl;
-	getchar();
-	return 0;
+#include <boost/asio.hpp>
+
+int main() {
+    boost::asio::io_service io_service;
+    boost::asio::ip::tcp::socket socket(io_service);
+    
+    // Try to open a socket
+    socket.open(boost::asio::ip::tcp::v4());
+
+    if (socket.is_open()) {
+        std::cout << "Boost Asio is working correctly!" << std::endl;
+    } else {
+        std::cout << "Boost Asio is not working properly." << std::endl;
+    }
+
+    return 0;
 }

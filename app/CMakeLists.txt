@@ -1,7 +1,7 @@
 add_executable(myApp src/main.cpp)
 # 链接Boost库
 if(Boost_FOUND)
-    message("链接成功：Boost_INCLUDE_DIRS: ${Boost_INCLUDE_DIRS}")
+    message("链接成功：Boost_Libraries: ${Boost_LIBRARIES}")
     target_link_libraries(myApp PRIVATE ${Boost_LIBRARIES})
 endif()
 target_link_libraries(myApp PRIVATE libA libB libExternal)

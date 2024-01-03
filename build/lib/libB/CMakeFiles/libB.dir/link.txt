@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,liblibB.so -o /home/xiadong/CmakeProject/libs/liblibB.so CMakeFiles/libB.dir/src/libB.cpp.o  ../libA/liblibA.a 

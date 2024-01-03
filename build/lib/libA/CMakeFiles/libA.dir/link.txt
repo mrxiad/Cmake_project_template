@@ -1,2 +1,2 @@
-/usr/bin/ar qc liblibA.a CMakeFiles/libA.dir/src/libA.cpp.o
-/usr/bin/ranlib liblibA.a
+/usr/bin/ar qc /home/xiadong/CmakeProject/archive/liblibA.a CMakeFiles/libA.dir/src/libA.cpp.o
+/usr/bin/ranlib /home/xiadong/CmakeProject/archive/liblibA.a

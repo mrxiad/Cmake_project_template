@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "liblibA.a"
+  "/home/xiadong/CmakeProject/archive/liblibA.a"
 )

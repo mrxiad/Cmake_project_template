@@ -92,10 +92,10 @@ myApp_EXTERNAL_OBJECTS =
 
 /home/xiadong/CmakeProject/bin/myApp: app/CMakeFiles/myApp.dir/src/main.cpp.o
 /home/xiadong/CmakeProject/bin/myApp: app/CMakeFiles/myApp.dir/build.make
-/home/xiadong/CmakeProject/bin/myApp: lib/libA/liblibA.a
+/home/xiadong/CmakeProject/bin/myApp: /home/xiadong/CmakeProject/archive/liblibA.a
 /home/xiadong/CmakeProject/bin/myApp: /home/xiadong/CmakeProject/libs/liblibB.so
 /home/xiadong/CmakeProject/bin/myApp: /home/xiadong/CmakeProject/libs/liblibExternal.so
-/home/xiadong/CmakeProject/bin/myApp: lib/libA/liblibA.a
+/home/xiadong/CmakeProject/bin/myApp: /home/xiadong/CmakeProject/archive/liblibA.a
 /home/xiadong/CmakeProject/bin/myApp: app/CMakeFiles/myApp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xiadong/CmakeProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xiadong/CmakeProject/bin/myApp"
 	cd /home/xiadong/CmakeProject/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myApp.dir/link.txt --verbose=$(VERBOSE)

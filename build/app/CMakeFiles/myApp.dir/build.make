@@ -92,6 +92,8 @@ myApp_EXTERNAL_OBJECTS =
 
 /home/xiadong/CmakeProject/bin/myApp: app/CMakeFiles/myApp.dir/src/main.cpp.o
 /home/xiadong/CmakeProject/bin/myApp: app/CMakeFiles/myApp.dir/build.make
+/home/xiadong/CmakeProject/bin/myApp: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xiadong/CmakeProject/bin/myApp: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/xiadong/CmakeProject/bin/myApp: /home/xiadong/CmakeProject/archive/liblibA.a
 /home/xiadong/CmakeProject/bin/myApp: /home/xiadong/CmakeProject/libs/liblibB.so
 /home/xiadong/CmakeProject/bin/myApp: /home/xiadong/CmakeProject/libs/liblibExternal.so

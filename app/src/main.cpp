@@ -1,13 +1,15 @@
-#include<iostream>
-#include "libA.h"
-#include "libB.h"
+#include <iostream>
+#include <boost/version.hpp>
+#include <boost/config.hpp>
+ 
 using namespace std;
-int main(){
-    libA a;
-    a.print();
-    cout<<"libA的add(1,2):"<<a.add(1,2)<<endl;
-    libB b;
-    b.print();
-    cout<<"libB的add(3,4):"<<b.add(3,4)<<endl;
-    return 0;
+int main()
+{
+	cout<<BOOST_VERSION<<endl;
+	cout<<BOOST_LIB_VERSION<<endl;
+	cout<<BOOST_PLATFORM<<endl;
+	cout<<BOOST_COMPILER<<endl;
+	cout<<BOOST_STDLIB<<endl;
+	getchar();
+	return 0;
 }

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xiadong/CmakeProject/libs/liblibExternal.pdb"
-  "/home/xiadong/CmakeProject/libs/liblibExternal.so"
+  "/Users/tal/xd_/Cmake_project_template/libs/liblibExternal.dylib"
+  "/Users/tal/xd_/Cmake_project_template/libs/liblibExternal.pdb"
   "CMakeFiles/libExternal.dir/src/libExternal.cpp.o"
   "CMakeFiles/libExternal.dir/src/libExternal.cpp.o.d"
 )

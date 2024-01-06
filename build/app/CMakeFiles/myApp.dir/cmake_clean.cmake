@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xiadong/CmakeProject/bin/myApp"
-  "/home/xiadong/CmakeProject/bin/myApp.pdb"
+  "/Users/tal/xd_/Cmake_project_template/bin/myApp"
+  "/Users/tal/xd_/Cmake_project_template/bin/myApp.pdb"
   "CMakeFiles/myApp.dir/src/main.cpp.o"
   "CMakeFiles/myApp.dir/src/main.cpp.o.d"
 )

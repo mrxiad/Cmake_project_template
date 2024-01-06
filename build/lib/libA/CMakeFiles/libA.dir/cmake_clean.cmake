@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xiadong/CmakeProject/archive/liblibA.a"
-  "/home/xiadong/CmakeProject/archive/liblibA.pdb"
+  "/Users/tal/xd_/Cmake_project_template/archive/liblibA.a"
+  "/Users/tal/xd_/Cmake_project_template/archive/liblibA.pdb"
   "CMakeFiles/libA.dir/src/libA.cpp.o"
   "CMakeFiles/libA.dir/src/libA.cpp.o.d"
 )

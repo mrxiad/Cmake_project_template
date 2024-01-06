@@ -1,2 +1,2 @@
-/usr/bin/ar qc /home/xiadong/CmakeProject/archive/liblibA.a CMakeFiles/libA.dir/src/libA.cpp.o
-/usr/bin/ranlib /home/xiadong/CmakeProject/archive/liblibA.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc /Users/tal/xd_/Cmake_project_template/archive/liblibA.a CMakeFiles/libA.dir/src/libA.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib /Users/tal/xd_/Cmake_project_template/archive/liblibA.a

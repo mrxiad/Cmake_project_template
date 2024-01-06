@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/xiadong/CmakeProject/archive/liblibA.a"
+  "/Users/tal/xd_/Cmake_project_template/archive/liblibA.a"
 )

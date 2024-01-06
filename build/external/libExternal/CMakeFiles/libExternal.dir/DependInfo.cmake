@@ -8,11 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xiadong/CmakeProject/external/libExternal/src/libExternal.cpp" "external/libExternal/CMakeFiles/libExternal.dir/src/libExternal.cpp.o" "gcc" "external/libExternal/CMakeFiles/libExternal.dir/src/libExternal.cpp.o.d"
+  "/Users/tal/xd_/Cmake_project_template/external/libExternal/src/libExternal.cpp" "external/libExternal/CMakeFiles/libExternal.dir/src/libExternal.cpp.o" "gcc" "external/libExternal/CMakeFiles/libExternal.dir/src/libExternal.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
